@@ -1,7 +1,7 @@
 set -e
 
 
-IMAGE_NAME="ratna1987/base-images/base-image-j"
+IMAGE_NAME="ratna1987/base-image-j"
 TAG="latest"
 
 echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
