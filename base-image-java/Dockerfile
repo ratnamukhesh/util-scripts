@@ -4,6 +4,7 @@ FROM amazoncorretto:25-alpine AS builder
 RUN apk add --no-cache \
     bash \
     ca-certificates \
+    coreutils \
     curl \
     git \
     jq \
